@@ -1,0 +1,474 @@
+                                                                                    /* This is the header */
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+.header{
+         height:21vh;
+       }
+.navbar1{
+    background-color: hwb(0 21% 30%);
+    height: 25px;
+    width: auto;
+    color:#fff ;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+   
+}
+                                   
+.p1{
+    margin: 0 27vw 0 13vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.p2{
+    margin: 0 0 0 9vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.navbar2{
+    background-color: white;
+    height: auto;
+    width: 100vw; 
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+.logo{
+    height: 15vh;
+    width: auto;
+    margin: 0 17vw 0 20vw;
+    overflow: hidden;
+}
+.navul{
+    margin:3vh 0vh;
+    color:rgb(3, 183, 238);
+    display: flex;
+    justify-content: flex-start ;
+    list-style: none;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.navul li{
+    margin: 0 1vw 0 1vw;
+     }
+                                   .navul li::after{
+                                          content:'';
+                                          width: 0%;
+                                          height: 2px;
+                                          background-color: red;
+                                          display: block;
+                                          margin: auto; 
+                                          transition: 0.5s;
+                                                   } 
+
+                                          .navul li:hover::after{ 
+                                                   width: 100%;
+                                                                }
+ .lia{text-decoration: none;}
+      
+
+
+ .navul p1{
+    font-size: 25px;
+ }
+
+.navlink ul li a{
+    color: #000;
+    text-decoration: none;   
+}
+
+
+                                                                                         /* This is the Footer */
+
+ 
+hr{ width: 79vw ;
+    margin: 2vh auto;;
+    justify-content: center;
+}
+.footerd{
+    display:flex;
+    flex-wrap: wrap;
+    height: 48vh;
+}
+.footdiv1{
+    margin: 5vh 0 0 17vw;
+}
+.footdiv2{
+    margin: 5vh 0 0 15vw;
+}
+.footdiv3{
+    margin: 5vh 0 0 16vw;
+}
+h3{
+    margin: 3vh 0 0 0;
+}
+.select{
+    margin: 2vh 2vw 2vh 0vw;}
+  
+
+.select button{margin: 2vh 2vw 2vh 0vw;}
+
+
+.footend{
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 22px;
+    align-self: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', "sans-serif";
+    
+}                                                                                         
+
+
+
+                                                                                      /* This is the Home page */                                                                                
+
+ 
+.Hmmain{
+        
+    min-height: calc(100vh - 21vh - 48vh);
+    
+}
+
+.headimg{
+    background-image: url('scrollbox2.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 2vh 0 ;
+    
+}
+.headimgtxt{
+    height:1vh;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mscroll1{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+.msp1{
+    margin: 2vw 0 2vw 0;
+    height: auto;
+    width: 450px;
+    transform: translate(-11vw);
+    animation: msp1 1s 1s ease-in-out 1 forwards;
+}
+@keyframes msp1{
+    0%{transform: translate(-11vw);}
+    100%{transform: translate(18vw);}
+}
+
+.msp2{ 
+    margin: 2vw 0 2vw 0;
+   transform: translate(57vw);
+   animation: msp2 1s 1s ease-in-out 1  forwards;
+   animation-direction:normal ;
+   box-shadow: 0 0 1vh 0 ;
+}
+   @keyframes msp2{
+    0%{transform: translate(57vw);}
+    100%{ transform: translate(28vw);}
+}
+
+
+
+.ourgamen{
+    width: auto;
+   font-size:20px;
+   text-align: center;
+   text-shadow: 1vh black;
+   font-family: 'Nanum Gothic', sans-serif;
+   font-family: 'Raleway', sans-serif;
+  
+}
+.class{
+   height: auto;
+   width: 100vw;  
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; 
+}
+.sporttypes{
+    position: relative;
+    overflow: hidden;
+    height:350px;
+    width:210px;
+    margin: 1vw 2vw;
+    box-shadow: 0 0 1vh 0 ;
+}
+.sporttypes img{
+    width: 100%;  
+}
+
+
+.layer{
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.5s;
+}
+                                                .layer:hover{
+                                                              background: rgba(226,0,0,0.7);
+                                                            }
+.layer h3{
+    color: #fff;
+    position: absolute;
+    
+    bottom: 0;
+    transform: translateX(-50);
+    transition: 0.5s;
+    opacity: 0;
+    left:35%;
+    
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1; 
+}      
+
+.enjoy{
+    margin: 5vh 0 ;
+    background-image: url(enjoy.jpg);
+    height: 25vh;
+    width: 100vw;
+    box-shadow: 0 0 2vh 0 ;
+}
+              
+.enjoy h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', "sans-serif";
+   
+
+}
+.aboutusbtn{
+    margin: 2vh 0 0 0;
+    text-align: center;
+    text-justify: center;
+    height: 27px;
+  width: 76px;
+  color: #000;
+  background-color: aqua;
+  box-shadow: 0 0 1vh 0;
+  position: relative;
+  left: 48%;
+
+}
+
+.aboutusbtn a{
+    text-decoration: none;
+}                                                                                      
+
+
+                                                                            /* This is the about us page */
+
+
+
+.abimggg{
+    background-image: url(aboutmain.jpg);
+   
+    height: 47vh;
+    width: 100vw;
+    box-shadow: 0 0 1vh 0;
+}
+
+.abimggg h4{
+   position: absolute;
+   top: 42%;
+   left: 45%;
+   font-size: 5vh;
+   color: white;
+}
+
+
+.ascroll{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    overflow: hidden;
+}
+.ascroll1{
+    width: 30vw;
+    margin: 7vh 0 7vh -2vw;
+    font-size: 19px;
+    transform: translateY(0vh);
+    transition: 0.5s;
+}
+                                                    .ascroll1:hover{
+                                                                     transform: translateY(-3vh);
+                                                                   }
+.ascrol2{
+    margin: 8vh 0 7vh 2vw;
+    transform: translateY(0vh);
+    transition: 0.5s;
+    
+}
+                                                    .ascrol2:hover{
+                                                                     transform: translateY(-3vh);
+                                                                  }
+
+.ascrol2 img{
+    box-shadow: 0 0 1vh 0;
+}
+
+
+                                                                            /* This is the sport page */
+
+
+
+
+.Simggg{
+    height: 50vh;
+    width: 100%;
+    background-image: url(sportimgg.jpeg);
+    background-size: cover;
+    color: black;
+    box-shadow: 0 0 1vh 0;
+}
+
+.Simggg h4{
+    color: #fff;
+    position: absolute;
+    top: 32%;
+    right:4%;
+    font-size: 10vh;
+    font-weight: inherit;
+    opacity: 0;
+    animation:simgtxt 1s ease-in 1 forwards;
+    }                                                               @keyframes simgtxt{
+                                                                    0%{opacity: 0;}
+                                                                    100%{opacity: 1;}
+                                                                    }
+  
+    .sptext1{
+        height: auto;
+        width: 100vw;
+        text-align: center;
+    }
+    .sptext1 h5{
+        text-align: center;
+        margin: 3vh 11vw;
+        font-size: 2;
+        width: fit-content;
+    }
+    /*    column no 2 */
+    .Ground{
+        font-size: 50px;
+        text-align: center;
+        opacity: 0;
+        animation:grdhed 1s ease-in 1 forwards;
+    }
+                                         @keyframes grdhed{
+
+                                                        0%{opacity: 0;}
+                                                        100%{opacity: 1;}
+
+                                                        0%{font-size: 0vh;}
+                                                        100%{font-size: 10vh;}
+                                                        }
+
+.allground{
+    height: auto;
+    width: 100vw;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .Grdtypes{
+     margin: 2vh 5vh;
+     position: relative;
+     overflow: hidden;
+     height:auto;
+     width:auto;
+     
+ }
+
+.layerrr{
+    width: auto;
+    font-size: 4vh;
+    text-align: center;
+    transform: translateY(5vh);
+    transition: 0.5s;
+}
+
+.allground:hover{ 
+    .layerrr{
+    transform: translateY(0vh);}
+}
+
+.hii{
+    position: relative;
+    box-shadow: 0 0 1vh 0 ;
+}
+
+
+                                                                            /* This is the contact us page */
+
+
+                                                                            
+.coonmain{
+    width:100vw;
+    height:auto;
+}
+
+
+.conhedimg{
+    height: 44vh;
+    width: 100vw;
+    background-image: url(contactimg.png);
+    background-size: cover;
+    box-shadow:0 0 2vh 0 ;
+}
+.coninfo{
+    width: 100vw;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.condiv1{
+    width: 50vw;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 4vh;
+}
+.condiv1 input{
+    height: 6vh;
+    width: 19vw;
+}
+.condiv2{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}                                                                           
